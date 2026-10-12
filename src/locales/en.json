@@ -1,0 +1,35 @@
+{
+  "option": {
+    "home": "Home",
+    "new-cafe-order": "New Cafe Order",
+    "about": "About"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Delicious Specialty Coffee, Served Fresh in Our Cafes.",
+    "my-orders": "My Café Orders"
+  },
+  "orders": {
+    "total-ordered": "Total Ordered",
+    "available-capacity": "Available Capacity",
+    "no-orders": "No Orders"
+  },
+  "order": {
+    "new-title": "New Cafe Order",
+    "new-subtitle": "Add Specialty Coffee Orders to Your Cafe Location",
+    "location": "Cafe Location",
+    "coffee": "Coffee Option",
+    "quantity": "Quantity",
+    "save": "Create",
+    "cancel": "Cancel",
+    "exceeds-capacity": "Quantity exceeds available capacity."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} is not available.",
+    "go-home": "Go Home"
+  },
+  "errors": {
+    "occurred": "Errors occurred"
+  }
+}

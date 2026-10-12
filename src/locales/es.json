@@ -1,0 +1,35 @@
+{
+  "option": {
+    "home": "Inicio",
+    "new-cafe-order": "Nuevo Pedido",
+    "about": "Acerca de"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Delicioso café de especialidad, servido fresco en nuestras cafeterías.",
+    "my-orders": "Mis Pedidos de Café"
+  },
+  "orders": {
+    "total-ordered": "Total Ordenado",
+    "available-capacity": "Capacidad Disponible",
+    "no-orders": "Sin Pedidos"
+  },
+  "order": {
+    "new-title": "Nuevo Pedido de Café",
+    "new-subtitle": "Agrega pedidos de café de especialidad a tu sede",
+    "location": "Sede de Cafetería",
+    "coffee": "Opción de Café",
+    "quantity": "Cantidad",
+    "save": "Crear",
+    "cancel": "Cancelar",
+    "exceeds-capacity": "La cantidad supera la capacidad disponible."
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "La ruta {unavailable-route} no está disponible.",
+    "go-home": "Ir al Inicio"
+  },
+  "errors": {
+    "occurred": "Ocurrieron errores"
+  }
+}
