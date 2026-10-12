@@ -25,12 +25,12 @@ const changeLanguage = language => locale.value = language;
         <span>Blue Bottle</span>
       </router-link>
 
-      <nav class="app-nav" aria-label="Main navigation">
+      <nav class="app-nav" :aria-label="t('accessibility.main-navigation')">
         <router-link v-for="item in items" :key="item.to" :to="item.to" class="nav-link">
           {{ t(item.label) }}
         </router-link>
 
-        <div class="language-switch" aria-label="Language">
+        <div class="language-switch" :aria-label="t('accessibility.language')">
           <button
             v-for="language in languages"
             :key="language.code"
