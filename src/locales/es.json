@@ -1,35 +1,47 @@
 {
   "option": {
     "home": "Inicio",
-    "new-cafe-order": "Nuevo Pedido",
+    "new-cafe-order": "Nuevo pedido",
     "about": "Acerca de"
   },
   "home": {
     "title": "Inicio",
-    "content": "Delicioso café de especialidad, servido fresco en nuestras cafeterías.",
-    "my-orders": "Mis Pedidos de Café"
+    "content": "Descubre café de especialidad y gestiona los pedidos de tus cafeterías.",
+    "my-orders": "Pedidos de cafetería"
   },
   "orders": {
-    "total-ordered": "Total Ordenado",
-    "available-capacity": "Capacidad Disponible",
-    "no-orders": "Sin Pedidos"
+    "total-ordered": "Total pedido",
+    "available-capacity": "Capacidad restante",
+    "no-orders": "Todavía no hay pedidos",
+    "quantity-short": "Cant."
   },
   "order": {
-    "new-title": "Nuevo Pedido de Café",
-    "new-subtitle": "Agrega pedidos de café de especialidad a tu sede",
-    "location": "Sede de Cafetería",
-    "coffee": "Opción de Café",
+    "new-title": "Crear un pedido",
+    "new-subtitle": "Elige una cafetería, selecciona un café e indica la cantidad.",
+    "location": "Cafetería",
+    "select-location": "Elige una cafetería",
+    "coffee": "Café",
+    "select-coffee": "Elige un café",
     "quantity": "Cantidad",
-    "save": "Crear",
+    "available-capacity": "Capacidad restante",
+    "coffee-preview": "Vista previa del café",
+    "save": "Crear pedido",
     "cancel": "Cancelar",
-    "exceeds-capacity": "La cantidad supera la capacidad disponible."
+    "exceeds-capacity": "La cantidad supera la capacidad restante."
   },
   "page-not-found": {
     "title": "Página no encontrada",
-    "content": "La ruta {unavailable-route} no está disponible.",
-    "go-home": "Ir al Inicio"
+    "content": "No encontramos la página {unavailable-route}.",
+    "go-home": "Volver al inicio"
+  },
+  "about": {
+    "content": "Descubre café de especialidad y organiza los pedidos de tus cafeterías en un solo lugar."
+  },
+  "accessibility": {
+    "main-navigation": "Navegación principal",
+    "language": "Idioma"
   },
   "errors": {
-    "occurred": "Ocurrieron errores"
+    "occurred": "Ocurrió un error."
   }
 }
