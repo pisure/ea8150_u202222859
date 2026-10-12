@@ -5,4 +5,5 @@ This template should help get you started developing with Vue 3 and TypeScript i
 Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
 
 The repository is located at the following link, within the MASTER branch:
+Nombre: Aaron Andre Espinoza Flores
 https://github.com/pisure/ea8150_u202222859.git
