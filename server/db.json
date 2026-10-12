@@ -1,0 +1,42 @@
+{
+  "cafe-locations": [
+    {
+      "id": 1,
+      "name": "Blue Bottle Williamsburg",
+      "coffeeType": "hot",
+      "maxCapacity": 50
+    },
+    {
+      "id": 2,
+      "name": "Blue Bottle Mint Plaza",
+      "coffeeType": "iced",
+      "maxCapacity": 40
+    },
+    {
+      "id": 3,
+      "name": "Blue Bottle Tokyo Station",
+      "coffeeType": "hot",
+      "maxCapacity": 60
+    }
+  ],
+  "cafe-orders": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "coffeeType": "hot",
+      "coffeeId": 2,
+      "coffeeName": "Latte",
+      "quantity": 10,
+      "registeredAt": "2026-10-12T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "coffeeType": "iced",
+      "coffeeId": 5,
+      "coffeeName": "Iced Mocha",
+      "quantity": 15,
+      "registeredAt": "2026-10-12T08:15:00Z"
+    }
+  ]
+}
