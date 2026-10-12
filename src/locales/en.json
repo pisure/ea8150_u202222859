@@ -1,35 +1,47 @@
 {
   "option": {
     "home": "Home",
-    "new-cafe-order": "New Cafe Order",
+    "new-cafe-order": "New order",
     "about": "About"
   },
   "home": {
     "title": "Home",
-    "content": "Delicious Specialty Coffee, Served Fresh in Our Cafes.",
-    "my-orders": "My Café Orders"
+    "content": "Discover specialty coffee and manage orders across your cafes.",
+    "my-orders": "Cafe orders"
   },
   "orders": {
-    "total-ordered": "Total Ordered",
-    "available-capacity": "Available Capacity",
-    "no-orders": "No Orders"
+    "total-ordered": "Total ordered",
+    "available-capacity": "Remaining capacity",
+    "no-orders": "No orders yet",
+    "quantity-short": "Qty"
   },
   "order": {
-    "new-title": "New Cafe Order",
-    "new-subtitle": "Add Specialty Coffee Orders to Your Cafe Location",
-    "location": "Cafe Location",
-    "coffee": "Coffee Option",
+    "new-title": "Create a cafe order",
+    "new-subtitle": "Choose a cafe, select a coffee, and enter a quantity.",
+    "location": "Cafe location",
+    "select-location": "Choose a cafe location",
+    "coffee": "Coffee",
+    "select-coffee": "Choose a coffee",
     "quantity": "Quantity",
-    "save": "Create",
+    "available-capacity": "Remaining capacity",
+    "coffee-preview": "Coffee preview",
+    "save": "Place order",
     "cancel": "Cancel",
-    "exceeds-capacity": "Quantity exceeds available capacity."
+    "exceeds-capacity": "The quantity exceeds the remaining capacity."
   },
   "page-not-found": {
-    "title": "Page Not Found",
-    "content": "The path {unavailable-route} is not available.",
-    "go-home": "Go Home"
+    "title": "Page not found",
+    "content": "We couldn't find the page {unavailable-route}.",
+    "go-home": "Return home"
+  },
+  "about": {
+    "content": "Discover specialty coffee and organize cafe orders in one place."
+  },
+  "accessibility": {
+    "main-navigation": "Main navigation",
+    "language": "Language"
   },
   "errors": {
-    "occurred": "Errors occurred"
+    "occurred": "Something went wrong."
   }
 }
