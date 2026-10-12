@@ -21,7 +21,7 @@ const availableCapacity = computed(() => props.location.maxCapacity - totalOrder
     <ul v-else class="order-list">
       <li v-for="order in locationOrders" :key="order.id">
         <span>{{ order.coffeeName }}</span>
-        <span class="muted">Qty: {{ order.quantity }}</span>
+        <span class="muted">{{ t('orders.quantity-short') }}: {{ order.quantity }}</span>
       </li>
     </ul>
     <footer class="location-stats">
