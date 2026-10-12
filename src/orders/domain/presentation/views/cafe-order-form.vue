@@ -92,7 +92,7 @@ const navigateBack = () => {
             :options="locations"
             optionLabel="name"
             optionValue="id"
-            placeholder="Select a Cafe Location"
+            :placeholder="t('order.select-location')"
             class="w-full"
             required
             @change="onLocationChange"
@@ -106,12 +106,12 @@ const navigateBack = () => {
             v-model="form.coffee"
             :options="availableCoffees"
             optionLabel="title"
-            placeholder="Select a Coffee Option"
+            :placeholder="t('order.select-coffee')"
             class="w-full"
             required
             @change="onCoffeeChange"
           />
-          <small class="muted">Available Capacity: <strong>{{ availableCapacity }}</strong></small>
+          <small class="muted">{{ t('order.available-capacity') }}: <strong>{{ availableCapacity }}</strong></small>
         </div>
 
         <div v-if="form.coffee" class="form-field">
@@ -134,8 +134,8 @@ const navigateBack = () => {
       </form>
 
       <aside v-if="selectedCoffeeImage" class="coffee-preview">
-        <p>Coffee Preview</p>
-        <img :src="selectedCoffeeImage" alt="Coffee Preview">
+        <p>{{ t('order.coffee-preview') }}</p>
+        <img :src="selectedCoffeeImage" :alt="t('order.coffee-preview')">
       </aside>
     </div>
   </section>
